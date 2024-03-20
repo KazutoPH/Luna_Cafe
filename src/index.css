@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  @apply m-0 p-0 max-w-none;
+}
+
+body {
+  @apply h-full w-full;
+}
+
+.max_width {
+  @apply max-w-[1440px] mx-auto w-full;
+}
+
+.padding-container {
+  @apply px-6 lg:px-20 3xl:px-0;
+}
+
+.nav_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 102%;
+  font-style: normal;
+}
+
+.popins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 102%;
+  font-style: normal;
+}
+
+.poly-regular {
+  font-family: "Poly", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.popins {
+  font-family: "Poppins", sans-serif;
+  line-height: 125%;
+  font-style: normal;
+}
+
+.poly {
+  font-family: "Poly", serif;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.hero_bg {
+  @apply bg-[url('hero_bg.jpg')] bg-cover bg-center fill-neutral-600;
+}
